@@ -1,0 +1,20 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<test name="Test1">
+  <parameter name="browser" value="firefox"/>
+  <parameter name="nodeurl" value="http://192.168.1.20:4444/wd/hub/"/>
+  <parameter name="appurl" value="https://demo.actitime.com/"/>
+    <classes>
+      <class name="demo.Parallel"/>
+    </classes>
+  </test>
+<test name="Test2">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="nodeurl" value="http://192.168.1.20:4444/wd/hub/"/>
+  <parameter name="appurl" value="https://demo.actitime.com/"/>
+    <classes>
+      <class name="demo.Parallel"/>
+    </classes>
+  </test>
+</suite> 

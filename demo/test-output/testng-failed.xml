@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test1(failed)">
+    <parameter name="nodeurl" value="http://192.168.1.10:4444/wd/hub/"/>
+    <parameter name="browser" value="firefox"/>
+    <parameter name="appurl" value="https://demo.actitime.com/"/>
+    <classes>
+      <class name="demo.Parallel">
+        <methods>
+          <include name="m1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- demo.Parallel -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test name="Test2(failed)">
+    <parameter name="nodeurl" value="http://192.168.1.10:4444/wd/hub/"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="appurl" value="https://demo.actitime.com/"/>
+    <classes>
+      <class name="demo.Parallel">
+        <methods>
+          <include name="m1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- demo.Parallel -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

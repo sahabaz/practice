@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="17056" started-at="2017-10-27T07:38:04Z" finished-at="2017-10-27T07:38:21Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="6765" started-at="2017-10-27T07:38:04Z" finished-at="2017-10-27T07:38:11Z">
+      <class name="demo.Parallel">
+        <test-method status="PASS" signature="m1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:demo.Parallel@651fd0]" name="m1" duration-ms="6749" started-at="2017-10-27T13:08:04Z" finished-at="2017-10-27T13:08:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://192.168.1.20:4444/wd/hub/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://demo.actitime.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+      </class> <!-- demo.Parallel -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="10260" started-at="2017-10-27T07:38:11Z" finished-at="2017-10-27T07:38:21Z">
+      <class name="demo.Parallel">
+        <test-method status="PASS" signature="m1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:demo.Parallel@15530b9]" name="m1" duration-ms="10260" started-at="2017-10-27T13:08:11Z" finished-at="2017-10-27T13:08:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://192.168.1.20:4444/wd/hub/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://demo.actitime.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+      </class> <!-- demo.Parallel -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
